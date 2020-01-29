@@ -1,0 +1,19 @@
+.main__inner {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 44px 0 66px 0;
+}
+
+.main__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+}

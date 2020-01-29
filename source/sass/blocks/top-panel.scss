@@ -1,0 +1,24 @@
+.top-panel__inner {
+  @include inner;
+
+  @media (min-width: $tablet-width) {
+    @include inner;
+  }
+}
+
+.top-panel {
+  background-color: #262626;
+  width: 100%;
+  color: #f8f8f8;
+  height: 78px;
+}
+
+.top-panel__notification {
+  color: #f8f8f8;
+  font-size: 12px;
+  font-weight: 500;
+
+  @media screen and (min-width: $tablet-width) {
+    margin-right: 15px;
+  }
+}

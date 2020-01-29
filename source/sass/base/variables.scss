@@ -1,0 +1,26 @@
+// Цвета
+$color-base: #004cff;
+$color-brand: #63d1bb;
+$color-main: #232323;
+// Свойства шрифтов
+$font-size-base: 19px;
+// $line-height: 1;
+
+// Значения вьюпортов
+$tablet-width: 768px;
+$mobile-width: 480px;
+$medium-width: 980px;
+$mobile-width-only: $tablet-width - 1;
+$desktop-width: 1150px;
+$large-width: 1350px;
+
+// Ретинизация
+$retina_dpi: 144dpi;
+$retina_dppx: 1.5dppx;
+
+// Ретинизация bg image
+// @media (min-resolution: $retina_dpi), (min-resolution: $retina_dppx) {
+//   . {
+//     background-image: url("../img/@2x.jpg") no-repeat center top rgb(249, 249, 249);
+//   }
+// }

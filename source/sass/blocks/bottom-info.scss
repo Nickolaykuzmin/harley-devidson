@@ -1,0 +1,22 @@
+.bottom-info__inner {
+  @include inner;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1350px;
+  }
+}
+
+.bottom-info__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and(min-width: $tablet-width) {
+    flex-direction: row;
+  }
+}
+
+.bottom-info {
+  padding-bottom: 44px;
+  padding-top: 65px;
+}

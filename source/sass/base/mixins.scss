@@ -1,0 +1,46 @@
+@mixin inner {
+  width: 100%;
+  padding: 0 15px;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+}
+
+@mixin defaultFont($weight, $style, $size, $line, $letter) {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+  line-height: $line;
+  letter-spacing: $letter;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// @mixin button-style {
+//   font-family: inherit;
+//   font-size: ;
+//   font-weight: ;
+//   line-height: ;
+//   color: $;
+//   text-transform: uppercase;
+//   border: solid px $;
+//   background-color: transparent;
+//   cursor: pointer;
+//   transition: all 0.2s ease;
+
+//   &:hover {
+//     background-color: $color-danger;
+//     color: ;
+//   }
+
+//   &:active {
+//     color: ;
+//   }
+// }

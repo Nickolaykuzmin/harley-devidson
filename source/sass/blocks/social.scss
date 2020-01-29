@@ -1,0 +1,21 @@
+.socials {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and(min-width: $tablet-width) {
+    justify-content: space-between;
+  }
+}
+
+.socials__item {
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 50px;
+  background-color: #004cff;
+  border-radius: 50%;
+}

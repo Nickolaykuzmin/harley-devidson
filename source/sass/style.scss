@@ -1,0 +1,22 @@
+// Base imports
+@import "base/normalize";
+@import "base/fonts";
+@import "base/layout";
+@import "base/mixins";
+@import "base/typography";
+@import "base/variables";
+@import "base/svg-icon";
+
+// Blocks imports
+@import "blocks/top-panel";
+@import "blocks/header";
+@import "blocks/menu-icon";
+@import "blocks/main";
+@import "blocks/products";
+@import "blocks/bottom-info";
+@import "blocks/subscribe";
+@import "blocks/gallery";
+@import "blocks/section-service";
+@import "blocks/info";
+@import "blocks/social";
+@import "blocks/footer";
